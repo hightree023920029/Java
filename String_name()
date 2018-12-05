@@ -1,0 +1,17 @@
+//名前を読み込んで挨拶する
+
+import java.util.Scanner:
+
+class HelloNext {
+
+  public staticvoid main(String[] args) {
+      Scanner stdIn = new Scanner(System.in) ;
+      
+      System.out.print("お名前は:");
+      String s = stdIn.next("Donald Trump") ;
+      
+      System.out.println("こんにちは" + s + "さん"。) ;
+      
+      
+       /* お名前は: Donald Trump
+        こんにちはDonal Trumpさん。*/
